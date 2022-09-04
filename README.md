@@ -4,12 +4,12 @@
 This is a tool for encrypting text, especially used for sending sensitive information on the Internet.
 
 ## Build Instructions
-To build Simple Encrypt, the latest version of Python 3 and cryptocode module are required.
+To build Simple Encrypt, the latest version of Python 3 and cryptocode, pyperclip module are required.
 
 ```
 $ sudo apt install python3 python3-pip
 $ python3 -m pip install --upgrade pip
-$ pip3 install cryptocode
+$ pip3 install cryptocode pyperclip
 ```
 
 After ensuring the requirements are met, simply build from "simple_encrypt.py" file using pyinstaller.
