@@ -1,10 +1,22 @@
 # Simple Encrypt
 
 ## Description
-This is a tool for encrypting text, especially used for send sensitive information on the Internet.
+This is a tool for encrypting text, especially used for sending sensitive information on the Internet.
 
 ## Build Instructions
-Simply build from "simple_encrypt.py" file using pyinstaller.
+To build Simple Encrypt, the latest version of Python 3 and cryptocode module are required.
+
+```
+$ sudo apt install python3 python3-pip
+$ python3 -m pip install --upgrade pip
+$ pip3 install cryptocode
+```
+
+After ensuring the requirements are met, simply build from "simple_encrypt.py" file using pyinstaller.
+
+```
+$ pyinstaller -F simple_encrypt.py
+```
 
 ## Licensing Information
 Copyright (C) 2022  Carter Zhang
